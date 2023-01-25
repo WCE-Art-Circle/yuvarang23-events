@@ -6,8 +6,7 @@
 
 body {
   height: 1000px;
-  background: linear-gradient(to bottom, #243b55, #141e30);
-  background: linear-gradient(rgba(20, 30, 48, 0.9), rgba(36, 59, 85, 0.95));
+  background: rgba(20, 30, 48, 0.9);
   position: relative;
   overflow-x: hidden;
   z-index: 0;
@@ -30,7 +29,6 @@ body {
 
 .container-tile .content {
   margin: 0 auto 5em;
-  min-height: 100vh;
   max-width: 800px;
   display: flex;
   flex-wrap: wrap;
@@ -239,10 +237,13 @@ h1 {
 }
 
 .container-master.toggled .container-tile {
-  left: 100%;
+  display: none;
+}
+.container-master .container-lyrics {
+  display: none;
 }
 .container-master.toggled .container-lyrics {
-  left: 0;
+  display: contents;
 }
 .container-master.toggled .lyrics-title {
   top: 0;
