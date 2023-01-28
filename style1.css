@@ -297,14 +297,11 @@ footer a .icons {
   font-size: 20px;
 }
 
-@media (min-width: 768px) {
-  .tile{
-    width: 350px;
-    height: 350px;
-  }
-  .tile .title {
-    font-size: 45px;
-  }
+@media (max-width: 768px) {
+h1{
+  font: 30px "Abril Fatface", serif;
+}
+  
 }
 
 
@@ -498,7 +495,6 @@ footer a .icons {
 .icon-wallet,
 .icon-wrench {
   font-family: simple-line-icons;
-  speak: none;
   font-style: normal;
   font-weight: 400;
   font-variant: normal;
