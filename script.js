@@ -34,6 +34,11 @@ $('.back').click(function(){
   $('.container-master').toggleClass('toggled');
 });
 
+$('.back2').click(function(){
+
+  $('.container-master').toggleClass('toggled');
+});
+
 $('.tile').click(function(){
   $('html,body').animate({scrollTop:0},0);
 
