@@ -8231,10 +8231,7 @@
   
   .ftco-section {
     padding: 2em 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-   }
+ }
   
   .ftco-no-pt {
     padding-top: 0; }
