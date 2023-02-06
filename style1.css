@@ -59,9 +59,11 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: transform 0.1s;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 5px;
   cursor: pointer;
-  background-image: url("./imgonline-com-ua-resize-mSpzuYbsV95U.png");
+  background-image: url("./website thumbnails/sketch.png");
   opacity: 0.7;
 }
 
@@ -72,62 +74,74 @@ h1 {
 }
 
 .tile:nth-child(2) {
-  background-position: -250px 0;
+  background-image: url("./website thumbnails/doodle.png");
 }
 
 .tile:nth-child(3) {
-  background-position: -500px 0;
+  background-image: url("./website thumbnails/rangoli.png");
+
 }
 
 .tile:nth-child(4) {
-  background-position: 0 -250px;
+  background-image: url("./website thumbnails/poetry.png");
+
 }
 
 .tile:nth-child(5) {
-  background-position: -250px -250px;
+  background-image: url("./website thumbnails/elocution.png");
+
 }
 
 .tile:nth-child(6) {
-  background-position: -500px -250px;
+  background-image: url("./website thumbnails/standup.png");
+
 }
 
 .tile:nth-child(7) {
-  background-position: 0 -500px;
+  background-image: url("./website thumbnails/solodance.png");
+
 }
 
 .tile:nth-child(8) {
-  background-position: -250px -500px;
+  background-image: url("./website thumbnails/groupdance.png");
 }
 
 .tile:nth-child(9) {
-  background-position: -500px -500px;
+  background-image: url("./website thumbnails/solosing.png");
+
 }
 .tile:nth-child(10) {
-  background-position: 0 -750px;
+  background-image: url("./website thumbnails/groupsing.png");
+
 }
 
 .tile:nth-child(11) {
-  background-position: -250px -750px;
+  background-image: url("./website thumbnails/instrument.png");
+
 }
 
 .tile:nth-child(12) {
-  background-position: -500px -750px;
+  background-image: url("./website thumbnails/solodrama.png");
+
 }
 .tile:nth-child(13) {
-  background-position: 0 -1000px;
+  background-image: url("./website thumbnails/groupdrama.png");
+
 }
 
 .tile:nth-child(14) {
-  background-position: -250px -1000px;
+  background-image: url("./website thumbnails/streetplay.png");
+
 }
 
 .tile:nth-child(15) {
-  background-position: -500px -1000px;
+  background-image: url("./website thumbnails/photo.png");
+
 }
 
 .tile .title {
   font-family: "Abril Fatface", serif;
-  font-size: 30px;
+  font-size: 0px;
   letter-spacing: 0.5px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -248,53 +262,7 @@ h1 {
   top: 0;
 }
 
-footer {
-  margin: 3em auto;
-}
-footer a {
-  text-decoration: none;
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: #111;
-  color: #f8f8f8;
-  margin: 5px;
-}
-footer a:hover {
-  background: #222;
-}
-footer a .icons {
-  margin-top: 12px;
-  display: inline-block;
-  font-size: 20px;
-}
 
-.social-icons {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 10px;
-  text-align: center;
-}
-.social-icons a {
-  text-decoration: none;
-  display: block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: #111;
-  color: #f8f8f8;
-  margin: 5px;
-}
-.social-icons a:hover {
-  background: #222;
-}
-.social-icons a .icons {
-  margin-top: 12px;
-  display: inline-block;
-  font-size: 20px;
-}
 
 @media (max-width: 768px) {
 h1{
