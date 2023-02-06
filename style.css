@@ -58,7 +58,15 @@
     color: #212529;
     text-align: left;
     background-color: #fff; }
-  
+    header {
+      overflow: hidden;
+    }
+    
+    header img {
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+    
   [tabindex="-1"]:focus {
     outline: 0 !important; }
   
