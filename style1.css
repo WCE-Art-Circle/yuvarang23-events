@@ -262,53 +262,7 @@ h1 {
   top: 0;
 }
 
-footer {
-  margin: 3em auto;
-}
-footer a {
-  text-decoration: none;
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: #111;
-  color: #f8f8f8;
-  margin: 5px;
-}
-footer a:hover {
-  background: #222;
-}
-footer a .icons {
-  margin-top: 12px;
-  display: inline-block;
-  font-size: 20px;
-}
 
-.social-icons {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 10px;
-  text-align: center;
-}
-.social-icons a {
-  text-decoration: none;
-  display: block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: #111;
-  color: #f8f8f8;
-  margin: 5px;
-}
-.social-icons a:hover {
-  background: #222;
-}
-.social-icons a .icons {
-  margin-top: 12px;
-  display: inline-block;
-  font-size: 20px;
-}
 
 @media (max-width: 768px) {
 h1{
