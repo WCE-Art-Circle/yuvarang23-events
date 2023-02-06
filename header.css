@@ -2182,7 +2182,7 @@ footer {
 }
 @media (max-width: 991px) {
     .hero-area-bg {
-        background: url(/headerm.png) no-repeat;
+        background: url(./headerm.png) no-repeat;
         background-size: contain;
       }
       .section-padding {
