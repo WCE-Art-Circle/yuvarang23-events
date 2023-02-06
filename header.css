@@ -2180,6 +2180,16 @@ footer {
   background: url(./header.jpg) no-repeat;
   background-size: cover;
 }
+@media (max-width: 991px) {
+    .hero-area-bg {
+        background: url(/headerm.png) no-repeat;
+        background-size: contain;
+      }
+      .section-padding {
+        padding: 0;
+    }
+    
+    }
 
 #hero-area {
   color: #fff;
