@@ -2183,13 +2183,19 @@ footer {
 @media (max-width: 991px) {
     .hero-area-bg {
         background: url(./headerm.png) no-repeat;
-        background-size: contain;
+        background-size: cover;
       }
       .section-padding {
         padding: 0;
     }
     
     }
+    @media (max-width: 460px){
+    .hero-area-bg {
+        background: url(./headerm.png) no-repeat;
+        background-size: contain;
+    }
+  }
 
 #hero-area {
   color: #fff;
